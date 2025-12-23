@@ -1,0 +1,47 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Kariax Phandelver",
+				"abbreviation": "KP",
+				"full": "Kariax Phandelver",
+				"version": "1.0.0",
+				"authors": [
+					"Kariax"
+				],
+				"color": "#b2b34e",
+				"colorNight": "#b2b34e"
+			}
+		]
+	},
+	"item": [
+		{
+			"name": "Mask of the Forgotten Hero",
+			"source": "Kariax Phandelver",
+			"page": 1,
+			"rarity": "very rare",
+			"reqAttune": true,
+            "wondrous": true,
+			"weight": 1,
+			"bonusAc": "+1",
+			"charges": 3,
+			"recharge": "dawn",
+			"rechargeAmount": "{@dice 1d3}",
+			"entries": [
+				"While wearing this mask, you gain a +1 bonus to AC.",
+				"The mask has 3 charges and regains {@dice 1d3} expended charges daily at dawn. While wearing it, you can use an action and expend 1 charge to cast the {@spell aura of purity} spell (spell save DC 15)."
+			],
+			"attachedSpells": [
+				"aura of purity"
+			],
+			"fluff": {
+				"entries": [
+				"Ah… cuánto tiempo ha pasado desde la última vez que sentí tu aliento detrás de mí, Calcetines.\nEl fuego me tocó, pero no me destruyó; me marcó con la misma herida que dejaste en tu fe.\nMitad ceniza, mitad promesa… igual que tú.",
+          		"Quedé olvidada en tu cuarto, en silencio, respirando el polvo de los días en que prometiste no volver atrás,\nesperando que volvieras a creer que el héroe que fuiste aún respira.\nNo en los aplausos, ni en los títulos, ni en la gloria…\nsino en ese instante en que elegías proteger, aun cuando temías perderlo todo.",
+          		"Siente mi peso. No es solo cuero y hollín: es la memoria de tus votos, la forma de tu valor.\nNo te ocultaré; te recordaré.\nNo te obligaré a fingir; te empujaré a avanzar.",
+          		"Vuelve a caminar con fe.\nNo porque Tymora te bendiga, sino porque tú decides que la suerte está contigo.\nYo solo soy el símbolo… pero tú, Calcetines, tú eres el héroe que aún mira hacia la luz a través de mí."
+				]
+			}
+		}
+	]
+}
